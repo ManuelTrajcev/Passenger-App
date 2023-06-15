@@ -1,0 +1,64 @@
+body {
+    background-image: url("pexels-s-k-2777183.jpg");
+    background-size: cover;
+    height: 95vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-image: url("pexels-s-k-2777183.jpg");
+    background-size: 500px;
+    border-radius: 20px;
+    border: 3px solid #2a2a2a;
+}
+
+h1 {
+    color: #b20000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 2px black;
+}
+
+h2 {
+    display: inline-block;
+    width: 60px;
+    background-color: #eeeea2;
+    border-radius: 10px;
+    border: 2px solid #2a2a2a;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#incrementh-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-el {
+    display: inline-block;
+    background-color: #eeeea2;
+    border-radius: 5px;
+    width: 180px;
+    border: 1px solid #2a2a2a;
+
+}
